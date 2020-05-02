@@ -61,6 +61,10 @@ export const TableContainer = styled.section`
       text-align: left;
       font-size: 16px;
       line-height: 24px;
+
+      &.price {
+        text-align: right;
+      }
     }
 
     td {
@@ -77,10 +81,12 @@ export const TableContainer = styled.section`
 
       &.income {
         color: #12a454;
+        text-align: right;
       }
 
       &.outcome {
         color: #e83f5b;
+        text-align: right;
       }
     }
 
